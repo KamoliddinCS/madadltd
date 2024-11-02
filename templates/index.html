@@ -1,0 +1,141 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div class="main-page d-flex flex-wrap align-items-center" style="background-image: url('{{ url_for('static', filename='images/main.jpg') }}'); background-repeat: no-repeat; background-size: cover;">
+  <div class="main-label col-lg-6 col-md-9 col-sm-12 d-flex flex-wrap align-items-space-between">
+    <h1 class="text-light label-heading fade-up">GAS EQUIPMENT MANUFACTURING</h1>
+    <p class="text-secondary text-light secondary-text fade-up">Manufacture of metal containers for storage and transportation of LPG (liquefied petroleum gas (propane), production of AGU (autonomous gas installation), production of cement semi-trailers</p>
+    <a href="#about" style="margin-top: 30px;" class="fade-up">
+      <button class="main-button">About us
+        <span class="arrow-right">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg>
+        </span>
+      </button>
+    </a>
+  </div>
+</div>
+
+<div class="about-section" id="about">
+  <div class="about-text col-lg-6">
+    <h1 class="about-label fade-left">MADAD LTD</h1>
+    <hr style="width: 100%; color: #010101;" class="fade-left">
+    <p class="text-secondary secondary-text fade-left">
+      Manufacture of metal containers for storage and transportation of LPG (liquefied petroleum gas (propane), production of AGU (autonomous gas installation), production of cement semi-trailers
+    </p>
+    <div class="fade-left">
+    <a href="{{ url_for('about') }}">
+      <button class="about-button">More
+        <span class="arrow-right">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg>
+        </span>
+      </button>
+    </a>
+    </div>
+  </div>
+  <div class="about-image col-lg-6">
+    <img src="{{ url_for('static', filename='images/madad-image.jpeg') }}" alt="" width="500" class="about-main-image">
+  </div>
+</div>
+
+<div class="product-section" id="product1">
+  <div class="product-section-text col-lg-6">
+    <h1 class="product-section-label fade-up">LPG VAPORIZER</h1>
+    <hr style="width: 100%; color: #010101;">
+    <p class="text-secondary secondary-text fade-up">
+      Water Bath Type (Heating Medium : Water,
+      Heating Source : Electric Heaters)
+    </p>
+    <div class="buttons fade-up" style="">
+      <a href="#" style="text-decoration: none;">
+        <button class="product-details-button">Product Details
+          <span class="arrow-right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg>
+          </span>
+        </button>
+      </a>
+      <a href="#" style="text-decoration: none;">
+        <button class="product-lists-button">Product Lists
+          <span class="arrow-right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg>
+          </span>
+        </button>
+      </a>
+    </div>
+  </div>
+  <div class="product-image col-lg-6">
+    <img src="{{ url_for('static', filename='images/img_lpg-vaporizer.png') }}" alt="" width="500" class="product-main-image">
+  </div>
+</div>
+
+<div class="product-section" id="product2">
+  <div class="product-image-2 col-lg-6 fade-left">
+    <img src="{{ url_for('static', filename='images/img_lpg-vaporizer2.png') }}" alt="" width="500" class="product-main-image">
+  </div>
+  <div class="product-section-text col-lg-6">
+    <h1 class="product-section-label fade-up">AUTOMATIC RATIO CONTROL SNG BLENDER</h1>
+    <hr style="width: 100%; color: #010101;">
+    <p class="text-secondary secondary-text fade-up">
+      Ratio control type LPG+AIR MIXER, KRM Series
+    </p>
+    <div class="buttons fade-up" style="">
+      <a href="#" style="text-decoration: none;">
+        <button class="product-details-button">Product Details
+          <span class="arrow-right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg>
+          </span>
+        </button>
+      </a>
+      <a href="#" style="text-decoration: none;">
+        <button class="product-lists-button">Product Lists
+          <span class="arrow-right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg>
+          </span>
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="product-section" id="product3">
+  <div class="product-section-text col-lg-6">
+    <h1 class="product-section-label">KGE’S SKID SYSTEMS</h1>
+    <hr style="width: 100%; color: #010101;">
+    <p class="text-secondary secondary-text">
+      LPG Car Filling Skid, LPG Vaporizer Skid
+    </p>
+    <div class="buttons" style="">
+      <a href="#" style="text-decoration: none;">
+        <button class="product-details-button">Product Details
+          <span class="arrow-right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg>
+          </span>
+        </button>
+      </a>
+      <a href="#" style="text-decoration: none;">
+        <button class="product-lists-button">Product Lists
+          <span class="arrow-right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg>
+          </span>
+        </button>
+      </a>
+    </div>
+  </div>
+  <div class="product-image col-lg-6">
+    <img src="{{ url_for('static', filename='images/img_lpg-vaporizer3.png') }}" alt="" width="500" class="product-main-image">
+  </div>
+</div>
+
+
+
+
+
+{% endblock %}
