@@ -7,9 +7,11 @@ Flask-CKEditor==0.5.1
 Flask-Login==0.6.3
 Flask-SQLAlchemy==3.1.1
 Flask-WTF==1.2.1
+gunicorn==23.0.0
 itsdangerous==2.2.0
 Jinja2==3.1.4
 MarkupSafe==2.1.5
+packaging==24.1
 SQLAlchemy==2.0.30
 typing_extensions==4.11.0
 visitor==0.1.3
