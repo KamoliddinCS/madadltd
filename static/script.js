@@ -1,17 +1,3 @@
-//$(document).ready(function() {
-//  // Function to handle scroll event
-//  $(window).scroll(function() {
-//    var scroll = $(window).scrollTop();
-//
-//    // Add 'scrolled' class to the header when scrolling down
-//    if (scroll > 0) {
-//      $(".b-border").addClass("scrolled");
-//    } else {
-//      $(".b-border").removeClass("scrolled");
-//    }
-//  });
-//});
-
 document.addEventListener("DOMContentLoaded", function() {
   let lastScrollTop = 0; // Store the last scroll position
   const header = document.querySelector('.b-border'); // Select the header

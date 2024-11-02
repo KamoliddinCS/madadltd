@@ -390,11 +390,6 @@ footer a {
 }
 
 @media (max-width: 994px) { /* Adjust according to your breakpoints */
-    .b-border {
-      background-color: rgba(0, 0, 0, 0.8);
-      border-bottom: 0.1px solid #c4c4c4;
-    }
-
     .product-section-text {
 
     }
