@@ -227,6 +227,14 @@
   border-bottom: 0.1px solid #c4c4c4;
 }
 
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.navigation {height:110px;}
+
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
@@ -350,6 +358,15 @@ footer a {
 /***************** RESPONSIVENESS *******************/
 
 @media (max-width: 1025px) {
+    .navbar {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .nav-item {
+        justify-content: center;
+    }
+
     .product-main-image {
         width: 400px;
     }
