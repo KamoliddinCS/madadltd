@@ -1,14 +1,46 @@
-$(document).ready(function() {
-  // Function to handle scroll event
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
+//$(document).ready(function() {
+//  // Function to handle scroll event
+//  $(window).scroll(function() {
+//    var scroll = $(window).scrollTop();
+//
+//    // Add 'scrolled' class to the header when scrolling down
+//    if (scroll > 0) {
+//      $(".b-border").addClass("scrolled");
+//    } else {
+//      $(".b-border").removeClass("scrolled");
+//    }
+//  });
+//});
 
+document.addEventListener("DOMContentLoaded", function() {
+  let lastScrollTop = 0; // Store the last scroll position
+  const header = document.querySelector('.b-border'); // Select the header
+  const headerHeight = header.offsetHeight;
+
+  window.addEventListener("scroll", function() {
+    const scrollTop = window.scrollY; // Get current scroll position
+
+    if (scrollTop > headerHeight) {
+      // Detect scroll direction
+        if (scrollTop > lastScrollTop) { // User scrolled down
+          header.classList.remove("visible");
+          header.classList.add("hidden");
+        } else if (scrollTop < lastScrollTop) { // User scrolled up
+          header.classList.remove("hidden");
+          header.classList.add("visible");
+        }
+    }
+
+    var scroll = $(window).scrollTop();
     // Add 'scrolled' class to the header when scrolling down
     if (scroll > 0) {
       $(".b-border").addClass("scrolled");
     } else {
       $(".b-border").removeClass("scrolled");
     }
+
+
+    lastScrollTop = scrollTop; // Update the last scroll position
   });
 });
 

@@ -217,8 +217,15 @@
     background-color: rgba(0, 0, 0, 0.0);
     /* border-bottom: 0.5px solid #c4c4c4; */
     background-opacity: 0.5;
-    transition: background-color 0.4s ease, border-bottom 0.4s ease;
+    transition: background-color 0.4s ease, border-bottom 0.4s ease, transform 0.3s ease;
+}
 
+.b-border.hidden {
+  transform: translateY(-100%); /* Hides the header */
+}
+
+..b-border.visible {
+  transform: translateY(0); /* Brings the header back into view */
 }
 
 /* Style changes when the header is scrolled */
