@@ -224,7 +224,7 @@
   transform: translateY(-100%); /* Hides the header */
 }
 
-..b-border.visible {
+.b-border.visible {
   transform: translateY(0); /* Brings the header back into view */
 }
 
