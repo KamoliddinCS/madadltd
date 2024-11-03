@@ -215,6 +215,8 @@
 
 .b-border {
     background-color: rgba(0, 0, 0, 0.0);
+    padding-left: 60px;
+    padding-right: 60px;
     /* border-bottom: 0.5px solid #c4c4c4; */
     background-opacity: 0.5;
     transition: background-color 0.4s ease, border-bottom 0.4s ease, transform 0.3s ease;
@@ -409,6 +411,14 @@ footer a {
         padding-right: 0;
     }
 
+    .about-button {
+        margin: 20px 0;
+    }
+
+    .buttons {
+        padding-bottom: 20px;
+    }
+
     .product-image-2 {
         text-align: center;
         padding-right:30px;
@@ -455,6 +465,10 @@ footer a {
         font-weight: 600;
         letter-spacing: -0.5px;
         line-height: 50px;
+    }
+
+    .b-border {
+        padding: 0 10px;
     }
 }
 
