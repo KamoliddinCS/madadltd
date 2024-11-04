@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-const mainLabel = document.querySelectorAll('.main-label .fade-up');
+const mainLabel = document.querySelectorAll('.fade-up');
 let delay1 = 0;
 
 const observer1 = new IntersectionObserver((entries, observer1) => {

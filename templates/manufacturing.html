@@ -1,1 +1,40 @@
 {% extends 'base.html' %}
+
+{% block body %}
+
+<div class="sub-visual" style="background: url('{{ url_for('static', filename='images/sub_vis_manufacturing.jpg') }}') no-repeat center center; background-size: cover;">
+    <div class="main-section">
+        <h2 class="text-light font-main fade-up">GAS Equipment</h2>
+        <p class="text-light font-main fade-up">Anywhere, anytime</p>
+    </div>
+</div>
+
+<div class="sub-cont-header d-flex justify-content-center" style="padding-top: 80px; padding-bottom: 40px;">
+    <h2 class="fade-left" style="margin: 30px 0; font-family: 'Montserrat', sans-serif; color: #353535; font-size: 36px; font-weight: 600; letter-spacing: -.5px;">
+        <span class="before fadeUpRight" style="left: 55%; bottom: 50px; width: 31px; height: 31px; display:block; position: absolute; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); background: url('{{ url_for('static', filename='images/tit_deco_lc.png') }}') no-repeat center center; background-size: cover;"></span>
+        MANUFACTURING LIST
+        <span class="after fadeDownLeft" style="left: 35%; top: 60px; width: 31px; height: 31px; display:block; position: absolute; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); background: url('{{ url_for('static', filename='images/tit_deco_lc.png') }}') no-repeat center center; background-size: cover;"></span>
+    </h2>
+</div>
+
+<div class="product-list">
+    <div class="list-box">
+        <ul>
+            <li><a href="/manufacturing/lpg-vaporizer-kev-series">LPG VAPORIZER (KEV Series)</a></li>
+            <li><a href="/manufacturing/lpg-vaporizer-kev-sr-series">LPG VAPORIZER (KEV-SR Series)</a></li>
+            <li><a href="/manufacturing/lpg-vaporizer-kdv-series">LPG VAPORIZER (KDV Series)</a></li>
+            <li><a href="/manufacturing/lpg-vaporizer-kwv-series">LPG VAPORIZER (KBV, KSV, KWV Series)</a></li>
+            <li><a href="/manufacturing/special-gas-vaporizer">SPECIAL GAS VAPORIZER</a></li>
+            <li><a href="/manufacturing/ammonia-vaporizer">AMMONIA VAPORIZER</a></li>
+            <li><a href="/manufacturing/automatic-ratio-control-sng-blender">AUTOMATIC RATIO CONTROL SNG BLENDER</a></li>
+            <li><a href="/manufacturing/manual-sng-blender">MANUAL SNG BLENDER, VENTURI SNG BLENDER</a></li>
+            <li><a href="/manufacturing/lpg-feed-pump-skid">LPG FEED PUMP SKID, AUTO ACTUATION SYSTEM</a></li>
+            <li><a href="/manufacturing/peak-shaving-system">PEAK SHAVING SYSTEM, CONTROL PANEL FOR SNG SUPPLY SYSTEM</a></li>
+            <li><a href="/manufacturing/lng-supply-system">LNG SUPPLY SYSTEM</a></li>
+            <li><a href="/manufacturing/of-cng-pressure-reducing-unit-pru">PRESSURE REDUCING UNIT(PRU), P&amp;ID OF CNG PRESSURE REDUCING UNIT (PRU)</a></li>
+            <li><a href="/manufacturing/kge-skid-system">KGE'S SKID SYSTEM</a></li>
+        </ul>
+    </div>
+</div>
+
+{% endblock %}

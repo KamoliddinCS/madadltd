@@ -385,6 +385,66 @@ footer a {
 
 /***************** MAIN ********************/
 
+
+/***************** MANUFACTURING PAGE ********************/
+
+.product-list {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.list-box {
+    margin: 40px 30px;
+}
+
+.list-box > ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    height: auto;
+    justify-content: center;
+}
+
+.list-box > ul > li {
+    width: 100%;
+    max-width: 390px;
+    text-align: center;
+    margin: 2px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    font-weight: 700;
+    color: #434343;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    cursor: pointer;
+}
+
+.list-box > ul > li > a {
+    padding: 17px 5px 10px;
+    word-break: keep-all;
+    color: #484848;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    flex: 1;
+    transition: .3s;
+}
+
+.list-box > ul > li > a:hover {
+    background-color: #ed1b2f;
+    font-weight: 700;
+    color: #fff;
+    border-color: #ed1b2f;
+}
+
+/***************** MANUFACTURING PAGE ********************/
+
+
+
+
 /***************** RESPONSIVENESS *******************/
 
 @media (max-width: 1025px) {
