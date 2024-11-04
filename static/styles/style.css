@@ -437,7 +437,6 @@ footer a {
     background-color: #ed1b2f;
     font-weight: 700;
     color: #fff;
-    border-color: #ed1b2f;
 }
 
 .manufacturing-list-header-text {
@@ -631,17 +630,6 @@ footer a {
     transform: translateY(0);
 }
 
-/*.fade-up:nth-child(1) { animation-delay: 0s; }
-.fade-up:nth-child(2) { animation-delay: 0.5s; }
-.fade-up:nth-child(3) { animation-delay: 1s; }
-
-@keyframes fadeInUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}*/
-
 /***************** FADE IN LEFT ***********************/
 
 .fade-left {
@@ -657,9 +645,13 @@ footer a {
 
 /***************** FADE IN RIGHT ***********************/
 
-@keyframes fadeInRight {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+.fade-right {
+    opacity: 0;
+    transform: translateX(18px);
+    transition: opacity 0.5s ease, transform 1s ease;
+}
+
+.fade-in-right {
+    opacity: 1;
+    transform: translateX(0);
 }
