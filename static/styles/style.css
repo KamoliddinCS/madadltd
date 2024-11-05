@@ -450,6 +450,182 @@ footer a {
 
 /***************** MANUFACTURING PAGE ********************/
 
+/***************** PRODUCT PAGE ********************/
+
+.product-description-section {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px 0 120px;
+}
+
+.sub_depth_tit {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.875rem;
+    color: #ed1b2f;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-bottom: .875rem;
+    letter-spacing: -1.5px;
+}
+
+.sub_depth_tit p {
+    font-size: 1.5625rem;
+    color: #111;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.bb-line {
+    border-bottom: 1px solid #999;
+}
+
+.fit-img {
+    margin: 50px auto;
+    display: block;
+    max-width: 100%;
+}
+
+.pro-spec-tit {
+    position: relative;
+    display: inline-block;
+    min-width: 250px;
+    padding: 9px 40px 8px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 1.175rem;
+    color: #000;
+    line-height: 1;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #ccc;
+    background: linear-gradient(#fff, #fff 50%, #fff 75%, #ddd 100%);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pro-spec-tit:before {
+    position: absolute;
+    left: -8px;
+    top: 8px;
+    content: '';
+    width: 31px;
+    height: 18px;
+    background: url(/static/images/ico_pro-spec-tit.png) no-repeat;
+}
+
+.ul-spec-list {
+    padding-bottom: 15px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.ul-spec-list > li {
+    position: relative;
+    padding-left: 25px;
+    line-height: 1.8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ul-spec-list > li:before {
+    top: 10px;
+    left: 10px;
+    width: 6px;
+    height: 6px;
+}
+
+.ul-spec-list li:before {
+    content: '';
+    position: absolute;
+    background: #555;
+}
+
+.ul-dep-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.ul-dep-list li {
+    position: relative;
+    padding-left: 12px;
+    line-height: 1.8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ul-dep-list li:before {
+    left: 0;
+    top: 13px;
+    width: 5px;
+    height: 1px;
+}
+
+.ul-spec-list li:before {
+    content: '';
+    position: absolute;
+    background: #555;
+}
+
+.pro-spec-item {
+    margin-top: 2.5rem;
+}
+
+.overflow-table, .overflow-table-m {
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.overflow-table table {
+    width: 100%;
+    min-width: 719px;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.kg-table table thead th {
+    background: #e4322b;
+    border-right: 1px solid #fff;
+    color: #fff;
+    font-weight: 600;
+}
+
+.kg-table table th, .kg-table table td {
+    text-align: center;
+    padding: 8px 3px 6px;
+    vertical-align: middle;
+    word-break: keep-all;
+    font-size: .875rem;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    line-height: 1.3;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.5px;
+}
+
+.kg-table table tbody th {
+    background: #90898f;
+    color: #fff;
+    border-top: 1px solid #555;
+    font-weight: 500;
+}
+
+.kg-table table td {
+    color: #000;
+    border-top: 1px solid #555;
+}
+
+.kg-table table tr:nth-of-type(even) td {
+    background: #d5cdce;
+    border-right: 1px solid #fff;
+}
+
+
+/***************** PRODUCT PAGE ********************/
 
 
 

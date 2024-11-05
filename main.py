@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, jsonify
 from flask_bootstrap import Bootstrap5
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
@@ -35,6 +35,12 @@ def equipments():
 @app.route("/contact")
 def contact():
     return render_template("contact.html")
+
+
+# ROUTES TO MANUFACTURED PRODUCTS AT MADAD LTD
+@app.route("/manufacturing/lpg-vaporizer-kev-series")
+def lpg_vaporizer1():
+    return render_template("lpg-vaporizer-kev-series.html")
 
 
 if __name__ == "__main__":
