@@ -798,6 +798,10 @@ table {
     .about-info-img {
         margin-top: 20px;
     }
+
+    .fullWidth {
+        height: 120px;
+    }
 }
 
 @media (max-width: 450px) {

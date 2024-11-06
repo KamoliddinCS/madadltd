@@ -1,1 +1,62 @@
 {% extends 'base.html' %}
+
+{% block title %}GAS EQUIPMENTS{% endblock %}
+
+{% block body %}
+
+<div class="sub-visual" style="background: url('{{ url_for('static', filename='images/sub_vis_manufacturing.jpg') }}') no-repeat center center; background-size: cover;">
+    <div class="main-section">
+        <h2 class="text-light font-main fade-up">GAS Equipment</h2>
+        <p class="text-light font-main fade-up">Anywhere, anytime</p>
+    </div>
+</div>
+
+<div class="sub-cont-header d-flex justify-content-center" style="padding-top: 80px; padding-bottom: 40px;">
+    <h2 class="fade-left manufacturing-list-header-text" style="">
+        <span class="before fadeUpRight" style="left: 55%; bottom: 50px; width: 31px; height: 31px; display:block; position: absolute; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); background: url('{{ url_for('static', filename='images/tit_deco_lc.png') }}') no-repeat center center; background-size: cover;"></span>
+        GAS EQUIPMENTS
+        <span class="after fadeDownLeft" style="left: 35%; top: 60px; width: 31px; height: 31px; display:block; position: absolute; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); background: url('{{ url_for('static', filename='images/tit_deco_lc.png') }}') no-repeat center center; background-size: cover;"></span>
+    </h2>
+</div>
+
+<div class="product-list">
+    <div class="list-box">
+        <ul>
+            <li><a href="/equipments/carousel-lpg-filling">CAROUSEL FOR LPG FILLING SYSTEM & LPG CYLINDER</a></li>
+            <li><a href="/equipments/digital-auto-gas-filler">DIGITAL AUTO GAS FILLER</a></li>
+            <li><a href="/equipments/gas-filler-pos-system">GAS FILLER & POS SYSTEM</a></li>
+            <li><a href="/equipments/filling-head">FILLING HEAD</a></li>
+            <li><a href="/equipments/gas-compressor">GAS COMPRESSOR</a></li>
+            <li><a href="/equipments/lpg-pump-feed-pump-skid">LPG PUMP & LPG FEED PUMP SKID</a></li>
+            <li><a href="/equipments/oilfree-scroll-air-compressor">OILFREE SCROLL AIR COMPRESSOR</a></li>
+            <li><a href="/equipments/lpg-tank-lorry">LPG TANK & TANK LORRY (BULK)</a></li>
+            <li><a href="/equipments/globe-valve-check-valve">GLOBE VALVE & CHECK VALVE & STRAINER & ETC</a></li>
+            <li><a href="/equipments/safety-valve-emergency">SAFETY VALVE & EMERGENCY SHUT OFF VALVE (E.S.V)</a></li>
+            <li><a href="/equipments/flange-end-ball-valve">FLANGE END BALL VALVE</a></li>
+            <li><a href="/equipments/manual-valves">MANUAL VALVES</a></li>
+            <li><a href="/equipments/stainless-steel-ball-valves">STAINLESS STEEL HIGH PRESSURE BALL VALVES</a></li>
+            <li><a href="/equipments/cryogenic-valves">CRYOGENIC VALVES</a></li>
+            <li><a href="/equipments/gas-detector-controller">GAS DETECTOR & CONTROLLER</a></li>
+            <li><a href="/equipments/gas-shut-off-device">GAS SHUT OFF DEVICE & WIRE DIAGRAM</a></li>
+            <li><a href="/equipments/lpg-pressure-regulator">LPG PRESSURE REGULATOR</a></li>
+            <li><a href="/equipments/control-valve-on-off-valve">CONTROL VALVE & ON-OFF VALVE</a></li>
+            <li><a href="/equipments/flow-meter">FLOW METER</a></li>
+            <li><a href="/equipments/level-gauge-storage-tank">LEVEL GAUGE FOR STORAGE TANK</a></li>
+            <li><a href="/equipments/level-gauge-lpg-tank-lorry">LEVEL GAUGE FOR LPG TANK LORRY</a></li>
+            <li><a href="/equipments/metal-flexible-hose">METAL FLEXIBLE HOSE FOR GAS SYSTEM</a></li>
+            <li><a href="/equipments/pressure-temperature-instruments">PRESSURE & TEMPERATURE INSTRUMENTS</a></li>
+            <li><a href="/equipments/fuse-cock-pigtail-hose">FUSE COCK, PIGTAIL HOSE & TWIN HOSE</a></li>
+            <li><a href="/equipments/pipe-fitting-flange">PIPE FITTING & FLANGE</a></li>
+            <li><a href="/equipments/explosion-proof-box">EXPLOSION PROOF BOX & ETC</a></li>
+            <li><a href="/equipments/pe-pipe-fitting">PE PIPE & FITTING</a></li>
+            <li><a href="/equipments/pen-style-gas-leak-detector">PEN STYLE & PORTABLE GAS LEAK DETECTORS</a></li>
+            <li><a href="/equipments/solenoid-valve">SOLENOID VALVE & ETC</a></li>
+            <li><a href="/equipments/lpg-filling-system">VARIOUS LPG FILLING & USING SYSTEM</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--<button id="scrollTopBtn" onclick="scrollToTop()" class="btn btn-secondary" style="position: fixed; bottom: 20px; right: 20px; display: none;">Top</button>-->
+
+
+{% endblock %}
