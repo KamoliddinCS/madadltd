@@ -11,4 +11,35 @@
     </div>
 </div>
 
+<div class="sub-cont-header d-flex justify-content-center" style="padding-top: 80px; padding-bottom: 40px;">
+    <h2 class="fade-left manufacturing-list-header-text position-relative">
+        <span class="before fadeUpRight" style="left: 55%; bottom: 50px; width: 31px; height: 31px; display:block; position: absolute; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); background: url('{{ url_for('static', filename='images/tit_deco_lc.png') }}') no-repeat center center; background-size: cover;"></span>
+        ABOUT US
+        <span class="after fadeDownLeft" style="left: 35%; top: 60px; width: 31px; height: 31px; display:block; position: absolute; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); background: url('{{url_for('static', filename='images/tit_deco_lc.png') }}') no-repeat center center; background-size: cover;"></span>
+    </h2>
+</div>
+
+<div class="sub-cont-section"></div>
+<div class="about-info">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 mb-4 fade-up">
+<!--                <h3 class="mb-3">About Us</h3>-->
+                <p class="about-info-text">Madad LLC is a specialized manufacturer of equipment for the storage and transportation of liquefied petroleum gases (propane).</p>
+<!--                <button class="main-button" style="border-color: #010101; color: #010101;">Call us-->
+<!--                     <span class="arrow-right">-->
+<!--                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">-->
+<!--                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>-->
+<!--                        </svg>-->
+<!--                    </span>-->
+<!--                </button>-->
+            </div>
+            <div class="col-lg-6 col-md-12 fade-right text-center about-info-img">
+                <img src="{{ url_for('static', filename='images/madad-image.jpeg') }}" alt="Madad LLC" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="fullWidth"></div>
+
 {% endblock %}
