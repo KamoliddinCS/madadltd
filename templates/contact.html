@@ -1,1 +1,69 @@
 {% extends 'base.html' %}
+
+{% block title %}CONTACT US{% endblock %}
+
+{% block body %}
+
+<div class="sub-visual" style="background: url('{{ url_for('static', filename='images/sub_vis_contactus.jpg') }}') no-repeat center center; background-size: cover;">
+    <div class="main-section">
+        <h2 class="text-light font-main fade-up">GAS Equipment</h2>
+        <p class="text-light font-main fade-up">Anywhere, anytime</p>
+    </div>
+</div>
+
+<div class="sub-cont-header d-flex justify-content-center" style="padding-top: 80px; padding-bottom: 40px;">
+    <h2 class="fade-left manufacturing-list-header-text" style="">
+        <span class="before fadeUpRight" style="left: 55%; bottom: 50px; width: 31px; height: 31px; display:block; position: absolute; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); background: url('{{ url_for('static', filename='images/tit_deco_lc.png') }}') no-repeat center center; background-size: cover;"></span>
+        CONTACT US
+        <span class="after fadeDownLeft" style="left: 35%; top: 60px; width: 31px; height: 31px; display:block; position: absolute; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); background: url('{{ url_for('static', filename='images/tit_deco_lc.png') }}') no-repeat center center; background-size: cover;"></span>
+    </h2>
+</div>
+
+<div class="contact-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 order-lg-2 mb-4">
+                <div class="contact-card p-4 bg-light shadow-sm">
+<!--                    <h3 class="mb-3">Contact Information</h3>-->
+                    <p><strong>MADAD LTD</strong></p>
+                    <p>Location: 130A, Ferganskaya str., Fergana city, Republic of Uzbekistan</p>
+                    <p>Email: <a href="mailto:madadltd@mail.ru" class="text-primary">madadltd@mail.ru</a></p>
+                    <p>Phone: <a href="tel:+998916804000" class="text-primary">+998-91-680 40 00</a></p>
+                    <p>Phone: <a href="tel:+998982760550" class="text-primary">+998-98-276 05 50</a></p>
+                    <p>Phone: <a href="tel:+998954000879" class="text-primary">+998-95-400 08 79</a></p>
+                    <p>Working hours: <strong>Mon - Wed, 08:00 - 18:00</strong></p>
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="google-map shadow-sm overflow-hidden" style="width: 100%; height: 100%; min-height: 300px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3213.772787155142!2d71.75874780796792!3d40.37278401335385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb82cfab293d6b%3A0xb23e1da183567ae6!2z0JzQsNC00LDQtA!5e1!3m2!1sen!2skr!4v1730887346849!5m2!1sen!2skr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .contact-card {
+        transition: transform 0.3s;
+    }
+    .contact-card:hover {
+        transform: translateY(-25px);
+    }
+    @media (max-width: 768px) {
+        .sub-visual .main-section {
+            padding: 30px 15px;
+        }
+        .contact-info .contact-card {
+            text-align: center;
+        }
+    }
+    @media (max-width: 576px) {
+        .sub-cont-header h2 {
+            font-size: 1.5rem;
+        }
+    }
+</style>
+
+
+{% endblock %}

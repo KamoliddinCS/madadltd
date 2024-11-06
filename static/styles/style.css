@@ -421,6 +421,17 @@ footer a {
 /***************** ABOUT PAGE ********************/
 
 
+
+/***************** CONTACT PAGE ********************/
+
+.contact-info {
+    padding: 50px 0;
+}
+
+/***************** CONTACT PAGE ********************/
+
+
+
 /***************** MANUFACTURING PAGE ********************/
 
 .product-list {
@@ -744,6 +755,10 @@ table {
     .about-info-text {
         padding-right: 0;
         max-width: 100%;
+    }
+
+    .contact-info {
+        padding-top: 30px;
     }
 }
 
