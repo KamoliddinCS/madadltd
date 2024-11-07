@@ -707,6 +707,11 @@ table {
         margin-left: 0;
         margin-right: 0;
     }
+
+    .product-description-section {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
 }
 
 @media (max-width: 994px) { /* Adjust according to your breakpoints */
@@ -854,6 +859,11 @@ table {
 
     .about-info-img {
         margin-top: 8px;
+    }
+
+    .product-description-section {
+        padding-right: 20px;
+        padding-left: 20px;
     }
 }
 
