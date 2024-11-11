@@ -418,6 +418,76 @@ footer a {
     background: #f34757;
 }
 
+.history-section {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.history-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #010101;
+}
+
+.history-section h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.history-section p {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+
+
+.timeline {
+    position: relative;
+    padding: 40px 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #f34757;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    margin-bottom: 40px;
+    position: relative;
+    width: 50%;
+    padding: 0 40px;
+}
+
+.timeline-item:nth-child(odd) {
+    font-family: 'Montserrat', sans-serif;
+    left: 0;
+}
+
+.timeline-item:nth-child(even) {
+    font-family: 'Montserrat', sans-serif;
+    left: 50%;
+}
+
+.timeline-content {
+    padding: 20px;
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
 /***************** ABOUT PAGE ********************/
 
 
